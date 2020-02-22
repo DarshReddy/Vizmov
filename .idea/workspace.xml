@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="06bb4845-7fa1-4bef-9f4e-aab1b0219a98" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/requirements-dev.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-    </list>
+    <list default="true" id="06bb4845-7fa1-4bef-9f4e-aab1b0219a98" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,7 +101,7 @@
       <option name="presentableId" value="Default" />
       <updated>1582143184912</updated>
       <workItem from="1582143190383" duration="3808000" />
-      <workItem from="1582215092191" duration="12779000" />
+      <workItem from="1582215092191" duration="13066000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1582370530250</created>
@@ -120,7 +117,14 @@
       <option name="project" value="LOCAL" />
       <updated>1582371813248</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="new files">
+      <created>1582371867638</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1582371867638</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
