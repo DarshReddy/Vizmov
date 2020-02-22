@@ -79,7 +79,8 @@ REST_FRAMEWORK = {
 }
 
 CORS_ORIGIN_WHITELIST = [
-    "http://localhost:4200"
+    "http://localhost:4200",
+    "https://movie-rater-djang.web.app/"
 ]
 
 # Password validation

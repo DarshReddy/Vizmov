@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="06bb4845-7fa1-4bef-9f4e-aab1b0219a98" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/movierater/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/movierater/settings.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -103,7 +104,7 @@
       <option name="presentableId" value="Default" />
       <updated>1582143184912</updated>
       <workItem from="1582143190383" duration="3808000" />
-      <workItem from="1582215092191" duration="14054000" />
+      <workItem from="1582215092191" duration="15438000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1582370530250</created>
@@ -140,7 +141,14 @@
       <option name="project" value="LOCAL" />
       <updated>1582372559401</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="proc error rectified">
+      <created>1582373227752</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1582373227752</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -160,7 +168,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
     <MESSAGE value="new files" />
-    <option name="LAST_COMMIT_MESSAGE" value="new files" />
+    <MESSAGE value="proc error rectified" />
+    <option name="LAST_COMMIT_MESSAGE" value="proc error rectified" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/MovieRaterApi$manage.coverage" NAME="manage Coverage Results" MODIFIED="1582312679346" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
