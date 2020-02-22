@@ -1,0 +1,1 @@
+web: gunicorn movie-rater-djangular.wsgi --log-file -
