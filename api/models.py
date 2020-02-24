@@ -34,7 +34,7 @@ class Rating(models.Model):
     user = models.ForeignKey(User, on_delete=models.CASCADE)
     stars = models.IntegerField(validators=[MinValueValidator(1),
                                             MaxValueValidator(5)])
-    comments = models.TextField(max_length=256)
+    comments = models.TextField(max_length=256, default='')
 
     class Meta:
         unique_together = (('user', 'movie'),)
