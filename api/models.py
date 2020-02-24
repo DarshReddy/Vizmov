@@ -4,8 +4,15 @@ from django.core.validators import MaxValueValidator, MinValueValidator
 
 
 class Movie(models.Model):
-    title = models.CharField(max_length=32)
-    description = models.TextField(max_length=256)
+    imdbID = models.CharField(max_length=10, primary_key=True)
+    Title = models.CharField(max_length=32)
+    Plot = models.TextField(max_length=256)
+    Year = models.IntegerField()
+    Runtime = models.CharField(max_length=8)
+    Genre = models.TextField(max_length=128)
+    Director = models.CharField(max_length=32)
+    Actors = models.TextField(max_length=128)
+    Poster = models.TextField(max_length=256)
 
     def no_of_ratings(self):
         ratings = Rating.objects.filter(movie=self)

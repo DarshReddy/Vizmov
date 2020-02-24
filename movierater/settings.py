@@ -10,7 +10,8 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 # See https://docs.djangoproject.com/en/3.0/howto/deployment/checklist/
 
 ALLOWED_HOSTS = [
-    'movie-rater-djangular.herokuapp.com'
+    'movie-rater-djangular.herokuapp.com',
+    '127.0.0.1'
 ]
 
 SECRET_KEY = config('SECRET_KEY')
@@ -79,8 +80,7 @@ REST_FRAMEWORK = {
 }
 
 CORS_ORIGIN_WHITELIST = [
-    "http://localhost:4200",
-    "https://movie-rater-djang.web.app/"
+    "http://localhost:4200"
 ]
 
 # Password validation
