@@ -24,17 +24,16 @@ class MovieViewSet(viewsets.ModelViewSet):
     def rate_movie(self, request, pk=None):
         if 'stars' in request.data:
 
-            movie = Movie.objects.get(id=pk)
+            movie = Movie.objects.get(imdbID=pk)
             stars = request.data['stars']
             user = request.user
 
             try:
-                rating = Rating.objects.get(user=user.id, movie=movie.id)
+                rating = Rating.objects.get(user=user.id, movie=movie.imdbID)
                 rating.stars = stars
                 rating.save()
                 serializer = RatingSerializer(rating, many=False)
-                response = {'message': 'Rating Updated', 'result': serializer.data,
-                            "Access-Control-Allow-Headers": "Content-Type, Authorisation"}
+                response = {'message': 'Rating Updated', 'result': serializer.data}
                 return Response(response, status=status.HTTP_200_OK)
             except:
                 rating = Rating.objects.create(user=user, movie=movie, stars=stars)
